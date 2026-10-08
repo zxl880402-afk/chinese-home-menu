@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#f7c85b" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="中式家常菜" />
+  <meta name="description" content="用家里的味道做的一本手机菜单" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="assets/icons/icon-192.png" />
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png" />
+  <link rel="stylesheet" href="style.css" />
+  <title>中式家常菜</title>
+</head>
+<body>
+  <main class="app-shell">
+    <header class="hero">
+      <img src="assets/bear-chef.svg" alt="小熊厨师" class="bear bear-left" />
+      <div class="hero-copy">
+        <p class="eyebrow">家的味道 · 好好吃饭</p>
+        <h1>中式家常菜</h1>
+        <p class="subtitle">简单的菜，最温暖</p>
+      </div>
+      <img src="assets/bear-chef.svg" alt="小熊厨师" class="bear bear-right" />
+    </header>
+
+    <nav class="category-tabs" aria-label="菜单分类">
+      <button class="tab active" data-category="all">全部 <span>11</span></button>
+      <button class="tab" data-category="dish">菜品类 <span>7</span></button>
+      <button class="tab" data-category="staple">主食类 <span>4</span></button>
+    </nav>
+
+    <section class="viewer" aria-live="polite">
+      <div class="decor decor-a">✿</div>
+      <div class="decor decor-b">♡</div>
+      <div class="photo-frame">
+        <img id="dishPhoto" src="assets/dishes/tomato-eggplant.jpg" alt="西红柿烧茄子" />
+      </div>
+      <div class="dish-title-wrap">
+        <span class="paw">🐾</span>
+        <h2 id="dishName">西红柿烧茄子</h2>
+        <span class="paw">🐾</span>
+      </div>
+      <div class="progress" id="progress">1 / 11</div>
+
+      <div class="controls">
+        <button id="prevBtn" class="nav-btn" aria-label="上一道菜">‹ <span>上一道</span></button>
+        <button id="nextBtn" class="nav-btn primary" aria-label="下一道菜"><span>下一道</span> ›</button>
+      </div>
+      <p class="swipe-tip">← 左右滑动也可以翻菜 →</p>
+    </section>
+
+    <section class="mini-list" aria-label="菜单缩略图">
+      <div id="thumbnailStrip" class="thumbnail-strip"></div>
+    </section>
+
+    <footer>
+      <img src="assets/bear-chef.svg" alt="" class="footer-bear" />
+      <div>
+        <strong>今天也要好好吃饭</strong>
+        <p>11 道家常味道 · 不显示价格 · 只看好吃的</p>
+      </div>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
