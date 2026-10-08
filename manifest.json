@@ -1,0 +1,13 @@
+{
+  "name":"中式家常菜手机菜单",
+  "short_name":"家常菜菜单",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#fff8e7",
+  "theme_color":"#f7c85b",
+  "lang":"zh-CN",
+  "icons":[
+    {"src":"assets/icons/icon-192.png","sizes":"192x192","type":"image/png"},
+    {"src":"assets/icons/icon-512.png","sizes":"512x512","type":"image/png"}
+  ]
+}
