@@ -1,15 +1,15 @@
 const menuItems = [
-  {name:'西红柿烧茄子', category:'dish', image:'assets/dishes/tomato-eggplant.jpg'},
-  {name:'青椒香干炒肉丝', category:'dish', image:'assets/dishes/pepper-tofu-pork.jpg'},
-  {name:'杏鲍菇炒鸡蛋', category:'dish', image:'assets/dishes/king-oyster-egg.jpg'},
-  {name:'土豆烧鸡块', category:'dish', image:'assets/dishes/potato-chicken.jpg'},
-  {name:'芹菜炒腐竹', category:'dish', image:'assets/dishes/celery-yuba.jpg'},
-  {name:'烤羊排', category:'dish', image:'assets/dishes/roast-lamb.jpg'},
-  {name:'青椒土豆丝', category:'dish', image:'assets/dishes/pepper-potato.jpg'},
-  {name:'蔬菜泡面', category:'staple', image:'assets/dishes/vegetable-noodles.jpg'},
-  {name:'蛋炒饭', category:'staple', image:'assets/dishes/egg-fried-rice.jpg'},
-  {name:'家常水饺', category:'staple', image:'assets/dishes/dumplings.jpg'},
-  {name:'鸡蛋手抓饼', category:'staple', image:'assets/dishes/egg-pancake.jpg'}
+  {name:'西红柿烧茄子', category:'dish', image:'dishes/tomato-eggplant.jpg'},
+  {name:'青椒香干炒肉丝', category:'dish', image:'dishes/pepper-tofu-pork.jpg'},
+  {name:'杏鲍菇炒鸡蛋', category:'dish', image:'dishes/king-oyster-egg.jpg'},
+  {name:'土豆烧鸡块', category:'dish', image:'dishes/potato-chicken.jpg'},
+  {name:'芹菜炒腐竹', category:'dish', image:'dishes/celery-yuba.jpg'},
+  {name:'烤羊排', category:'dish', image:'dishes/roast-lamb.jpg'},
+  {name:'青椒土豆丝', category:'dish', image:'dishes/pepper-potato.jpg'},
+  {name:'蔬菜泡面', category:'staple', image:'dishes/vegetable-noodles.jpg'},
+  {name:'蛋炒饭', category:'staple', image:'dishes/egg-fried-rice.jpg'},
+  {name:'家常水饺', category:'staple', image:'dishes/dumplings.jpg'},
+  {name:'鸡蛋手抓饼', category:'staple', image:'dishes/egg-pancake.jpg'}
 ];
 
 let activeCategory='all';
